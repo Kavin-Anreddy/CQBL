@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>California Quiz Bowl League</title>
+  <meta name="description" content="California Quiz Bowl League — spreading competitive academic quiz bowl across California. Tournaments, coaching, resources, and community." />
+  <link rel="icon" href="data:,"><!-- tiny placeholder -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            calBlue: '#0033A0',
+            calGold: '#FDB515',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <header class="bg-gradient-to-r from-calBlue to-calGold text-white">
+    <div class="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl font-extrabold">California Quiz Bowl League</h1>
+        <p class="text-sm opacity-90">Building communities. Running tournaments. Coaching the next generation.</p>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#programs" class="hover:underline">Programs</a>
+        <a href="#resources" class="hover:underline">Resources</a>
+        <a href="#events" class="hover:underline">Events</a>
+        <a href="#get-involved" class="hover:underline">Get Involved</a>
+        <a href="#contribute" class="hover:underline">Contribute</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section id="hero" class="grid gap-6 md:grid-cols-2 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-calBlue">Spreading Quiz Bowl Across California</h2>
+        <p class="mt-4 text-slate-700">We help schools, clubs, and students discover quiz bowl — a fast-paced academic team competition that rewards breadth of knowledge, teamwork, and quick recall. Our focus is accessibility: low-cost tournaments, coach training, and outreach to new schools and aspiring teams statewide.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#events" class="inline-block px-4 py-2 bg-calBlue text-white rounded shadow hover:opacity-90">See upcoming events</a>
+          <a href="#get-involved" class="inline-block px-4 py-2 border border-calBlue text-calBlue rounded hover:bg-calGold hover:text-white">Join as a player or coach</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-semibold text-calBlue">Quick facts</h3>
+        <ul class="mt-3 space-y-2 text-sm text-slate-600">
+          <li>✔️ Run by players.</li>
+          <li>✔️ Tournaments for all levels for teams in California.</li>
+          <li>✔️ Coaching new teams and spreading quiz bowl.</li>
+          <li>✔️ Community-first approach.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="mt-12">
+      <h3 class="text-2xl font-bold text-calBlue">Our mission</h3>
+      <p class="mt-3 text-slate-700">The California Quiz Bowl League (CQBL) exists to expand access to competitive academic activities for students across California. We believe quiz bowl develops research skills, teamwork, public speaking confidence, and intellectual curiosity. We prioritize:</p>
+      <ul class="mt-4 grid gap-2 md:grid-cols-3">
+        <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calBlue">
+          <strong>Inclusion</strong>
+          <div class="text-sm text-slate-600 mt-1">Bring quiz bowl to schools with limited resources.</div>
+        </li>
+        <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calGold">
+          <strong>Education</strong>
+          <div class="text-sm text-slate-600 mt-1">Coach training, curriculum tips, and practice materials.</div>
+        </li>
+        <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calBlue">
+          <strong>Community</strong>
+          <div class="text-sm text-slate-600 mt-1">Peer networks, mentor coaches, and inter-school tournaments.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="programs" class="mt-12">
+      <h3 class="text-2xl font-bold text-calBlue">What we run</h3>
+      <div class="mt-4 space-y-6">
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Tournaments</h4>
+          <p class="text-slate-600 mt-2">We host beginner-friendly and open tournaments throughout the calendar year. Events are run with clear rulesets, provided moderators/referees, and strive to keep entry costs minimal.</p>
+        </article>
+
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Outreach</h4>
+          <p class="text-slate-600 mt-2">We're dedicated to growing quiz bowl across California by helping schools, teachers, and students discover the excitement of academic competition. We work to support new programs in any way we can </p>
+        </p>
+        </article>
+
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Resources & Open Content</h4>
+          <p class="text-slate-600 mt-2">All practice packets, match schedules, and moderation guides are stored in our GitHub repository under an open license — ready to fork and adapt for your region.</p>
+        </article>
+      </div>
+    </section>
+    <section id="resources" class="mt-12">
+        <h3 class="text-2xl font-bold text-calBlue">Resources for Teams & Coaches</h3>
+        <p class="mt-3 text-slate-700">Here are some essential tools and guides to help you start or improve your quiz bowl program:</p>
+        <ul class="mt-4 space-y-3 text-slate-700 list-disc list-inside">
+          <li><a href="https://www.naqt.com/how-to/start-a-team.jsp" class="text-calBlue underline" target="_blank" rel="noopener noreferrer">How to Start a Team (NAQT)</a> — step-by-step instructions on forming, funding, and growing a quiz bowl team.</li>
+          <li><a href="https://www.qbreader.org/" class="text-calBlue underline" target="_blank" rel="noopener noreferrer">QBReader</a> — play real tossups online, practice solo, or compete with friends in real time.</li>
+          <li><a href="https://www.qbwiki.com/wiki/How_to_study" class="text-calBlue underline" target="_blank" rel="noopener noreferrer">Quiz Bowl Wiki: How to Study</a> — community-curated study strategies and topic guides.</li>
+          <li><a href="https://hsquizbowl.org/db/" class="text-calBlue underline" target="_blank" rel="noopener noreferrer">hsquizbowl.org Database</a> — forums, past tournaments, and searchable quiz bowl archives.</li>
+          <li><a href="https://www.naqt.com/you-gotta-know/" class="text-calBlue underline" target="_blank" rel="noopener noreferrer">NAQT “You Gotta Know” Study Guides</a> — concise overviews of common quiz bowl topics.</li>
+        </ul>
+      </section>
+      
+    <section id="events" class="mt-12">
+      <h3 class="text-2xl font-bold text-calBlue">Tournaments</h3>
+      <h2 class="text-lg font-semibold mt-2 text-slate-700"> </h2>
+      <div id="events-list" class="grid gap-4 md:grid-cols-2"></div>
+      <script>
+        const events = [
+          {id:1, title:'CQBL Capital Cup', date:'2026-01-31', location:'Online, Discord; NORCAL', set:'MACKEREL - HS Regular difficulty', details:'High school teams and advanced middle school teams.'},
+          {id:2, title:'Churchill', date:'2026-03-15', location:'Winston Churchill Middle School', set:'GHOST II - Varsity; SCYLLA; JV', details:'Northern California Tournament for all skill levels. Varsity and Junior Varsity divisions.'},
+        ];
+        const list = document.getElementById('events-list');
+        events.forEach(e=>{
+          const card = document.createElement('div');
+          card.className = 'bg-white p-5 rounded-lg shadow-sm border-l-4 border-calBlue';
+          card.innerHTML = `
+            <h5 class="font-semibold">${e.title}</h5>
+            <div class="text-sm text-slate-600 mt-1">${new Date(e.date).toLocaleDateString()} • ${e.location} • ${e.set}</div>
+            <p class="mt-2 text-slate-700">${e.details}</p>
+          `;
+          list.appendChild(card);
+        });
+      </script>
+    </section>
+
+    <section id="get-involved" class="mt-12">
+      <h3 class="text-2xl font-bold text-calBlue">Get involved</h3>
+      <div class="mt-4 grid gap-4 md:grid-cols-3">
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calBlue">
+          <strong>Players</strong>
+          <p class="text-sm text-slate-600 mt-2">Find a local practice, form a school team, or sign up for upcoming tournaments.</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calGold">
+          <strong>Coaches</strong>
+          <p class="text-sm text-slate-600 mt-2">No experience required — our coaches program gives you training materials and mentorship.</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-calBlue">
+          <strong>Volunteers</strong>
+          <p class="text-sm text-slate-600 mt-2">Help run events as moderators, scorekeepers, or logistics volunteers.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-calGold/10 p-4 rounded-lg">
+        <p class="text-sm">Want to bring quiz bowl to a school? Check out our resources or email <a href="mailto:californiaquizbowlleague@gmail.com" class="text-calBlue underline">californiaquizbowlleague@gmail.com</a> for tips, advice, and support.</p>
+      </div>
+    </section>
+
+    <section id="footer-cta" class="mt-12 bg-gradient-to-r from-calBlue to-calGold p-6 rounded-lg text-white">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div>
+          <h4 class="font-bold">Ready to help spread quiz bowl?</h4>
+          <p class="text-sm opacity-90 mt-1">We want to make quiz bowl open to every curious student. Please reach out to us at <a href="mailto:californiaquizbowlleague@gmail.com" class="underline">californiquizbowlleague@gmail.com</a> to join our team  to start a new regional chapter.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
